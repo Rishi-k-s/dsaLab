@@ -65,6 +65,8 @@ class LinkedList{
             currPos = currPos.next;
         }
     }
+
+    
 }
 
 public class LinkListNew {
