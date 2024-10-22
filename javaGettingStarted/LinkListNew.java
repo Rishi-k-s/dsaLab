@@ -32,7 +32,7 @@ class LinkedList{
         }
 
         if(currNode ==null){
-            System.out.println("OOmbada Myre");
+            System.out.println("Error");
             return 0;
         }
 

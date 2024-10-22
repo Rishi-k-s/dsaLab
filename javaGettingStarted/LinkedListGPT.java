@@ -145,17 +145,18 @@ class LinkedList {
     }
 
     // Method to view elements in the linked list
-    public void viewElem() {
+    public int viewElem() {
         Node current = head;
         if (current == null) {
             System.out.println("List is empty");
-            return;
+            return 1;
         }
 
         while(current != null){
             System.out.println(current.data);
             current = current.next;
         }
+        return 1;
     }
 
     // Method to view a specific element at a position
